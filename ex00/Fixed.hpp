@@ -6,7 +6,7 @@
 /*   By: mohaben- <mohaben-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 16:59:41 by mohaben-          #+#    #+#             */
-/*   Updated: 2025/07/28 17:14:16 by mohaben-         ###   ########.fr       */
+/*   Updated: 2025/08/02 16:01:48 by mohaben-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@
 class	Fixed
 {
 	private:
-		static const int	fract_bits = 8;
-		int					fixed_point;
+		static const int	fractionalBits = 8;
+		int					raw;
 	public:
 		Fixed( void );
 		Fixed( const Fixed& copy );
