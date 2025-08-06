@@ -6,7 +6,7 @@
 /*   By: mohaben- <mohaben-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 18:17:42 by mohaben-          #+#    #+#             */
-/*   Updated: 2025/08/02 16:11:09 by mohaben-         ###   ########.fr       */
+/*   Updated: 2025/08/02 17:04:56 by mohaben-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ class	Fixed
 		Fixed( const float f );
 		Fixed( const Fixed& copy );
 		Fixed& operator=( const Fixed & copy );
-		~Fixed();
+		~Fixed( void );
 		int		getRawBits( void ) const;
 		void	setRawBits( int const raw );
 		float	toFloat( void ) const;
