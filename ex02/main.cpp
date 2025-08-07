@@ -6,7 +6,7 @@
 /*   By: mohaben- <mohaben-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 18:17:25 by mohaben-          #+#    #+#             */
-/*   Updated: 2025/08/02 16:59:41 by mohaben-         ###   ########.fr       */
+/*   Updated: 2025/08/07 11:25:39 by mohaben-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int main( void )
 {
-	Fixed	a;
+	Fixed a;
 	Fixed const b( Fixed( 5.05f ) * Fixed( 2 ) );
 
 	std::cout << a << std::endl;
